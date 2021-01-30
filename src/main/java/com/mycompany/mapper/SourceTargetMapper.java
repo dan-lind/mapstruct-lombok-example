@@ -19,6 +19,6 @@ public interface SourceTargetMapper {
 
     @Mapping( source = "test", target = "nestedTarget.testing" )
     @Mapping( source = "testToo.test", target = "nestedTarget.testingToo" )
-   
+
     Target toTarget( Source s );
 }
